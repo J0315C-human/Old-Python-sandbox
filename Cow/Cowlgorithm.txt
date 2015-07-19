@@ -1,0 +1,28 @@
+CS 101
+Algorithm 8
+"Cow"
+
+
+PROBLEM: Make a player class to play 'Cow' the card game
+
+ALGORITHM:
+
+First, I'll have to use the methods and names outlined in the assignment.
+(Be more specific!)
+
+Then, once correct variables are being passed, and I've tested out the methods - start to think about strategy.
+-Definitely add a class variable that keeps track of all the cards that have been played so far. (or just order "past tricks" into an incomplete deck)
+-Get rid of lower cards whenever possible.
+-a whole method for deciding what card to play first if opening a trick.
+--this will involve deciding which suit is least likely to have high cards in other's hands. Card counting important here (which ones have been used already)
+
+-at beginning of game, it'll be harder to tell chances of having cards/suit distribution, so there will have to be a catch-all that decides what card to lead with if there's no past information. Probably just the highest card in hand, at that point. (ALTHOUGH... this seems too obvious, what if I choose lower at that point, wait until everyone else has run out of high cards to use mine up for leads?)
+
+TO DO: play rounds of this game in real life, enough to imagine different types of strategy that could be taken, and how to tell which one someone's taking by their first few moves.
+
+-This is probably too complex, but maybe work up a model of the other players' strategies as the game progresses, match it to a (predetermined) list of different possible strategy "flavors," and proceed with choosing cards in the best possible way to complement that strategy. I guess if everyone's using a different strategy, though, It'd be best to go with whatever strategy is most often used, or used by a majority of players.
+--could just go with "are they playing higher cards first or lower cards first?"
+
+NOTE: There's really not that much to the game itself. Just need to figure out what parts are entirely up to chance, and which ones are not; place different decisions on a sliding scale from "aleatoric" to "decision => outcome."
+
+TO DO: Ask Hare in class - who wins a trick if no one can follow suit? Especially if the non-suit cards are still higher than the lead? Also, why can't I find anything about this game online?

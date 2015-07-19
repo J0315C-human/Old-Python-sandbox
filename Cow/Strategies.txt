@@ -1,0 +1,37 @@
+Strategies:
+Dick - NOrth
+Tom - East
+Harry - West
+ME - South
+
+East - dumb, South- CantFollow most Rare
+NorthWest - CantFollow most Common
+{'South': 164, 'East': 37, 'North': 132, 'West': 112}
+SouthWins: 36.853932584269664%
+{'South': 304, 'East': 41, 'North': 278, 'West': 250}
+SouthWins: 34.822451317296675%
+
+East - dumb, South- CantFollow most Common
+NorthWest - CantFollow most Rare
+{'East': 66, 'West': 291, 'South': 262, 'North': 246}
+SouthWins: 30.289017341040463%
+
+East, West - Most Common
+South, North - Most Rare
+
+{'South': 227, 'North': 258, 'East': 178, 'West': 185}
+SouthWins: 26.7688679245283%
+{'South': 257, 'North': 215, 'East': 205, 'West': 196}
+SouthWins: 29.43871706758305%
+
+South, North - Most Rare (keep)
+East West - dumb
+# South now impld 2-3-4th play = play highest if you can win, lowest if not
+
+{'West': 17, 'North': 152, 'East': 25, 'South': 248}
+SouthWins: 56.10859728506787%
+
+South VS North
+so far south good
+switching places- 
+2 and 3 instead
